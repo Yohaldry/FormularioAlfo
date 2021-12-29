@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.title{
+
+    color: yellow;
+}
+
+.planoTotal{
+
+    background-color: rgb(53, 53, 53);
+    width: 100%;
+    height: 625px;
+}
+
+.formulario{
+
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 65px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.formulario img{
+
+    
+    width: 10%;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 6px;
+    
+}
+
+.formulario h2{
+
+    
+  margin-left: -80px;
+  margin-top: 10px;
+  font-family: 'Righteous', cursive;
+}
+
+.camposRecuadro{
+
+    background-color: rgb(34, 34, 34);
+    width: 50%;
+    height: 405px;
+    margin-top: 50px;
+    margin-left: 25%;
+    border-radius: 10px;
+}
+
+.camposRecuadro h1{
+
+    color: white;
+    margin-left: 36%;
+    margin-bottom: 5%;
+
+    
+}
+
+.camposRecuadro input{
+
+    color: white;
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    
+    color: black;
+    font-family: 'Righteous', cursive;
+    
+}
+
+.camposRecuadro select{
+
+   width: 200px;
+   height: 40px;
+   margin-left: 206px;
+   margin-top: 20px;
+   font-family: 'Righteous', cursive;
+    
+}
+
+.camposRecuadro label{
+
+  color: white;
+  margin-left: 210px;
+     padding-top: 20px;
+     font-family: 'Righteous', cursive;
+ }
+
+ .guardar{
+
+    background-color: rgb(128, 128, 128);
+    margin-left: 270px;
+    width: 200px;
+    margin-top: 15px;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.guardar:hover{
+
+    background-color: rgb(0, 134, 22);
+    color: white;
+}
+
+#nombre{
+
+    
+    color: white;
+}
